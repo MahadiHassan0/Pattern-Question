@@ -23,7 +23,7 @@ public class ButterflyPattern {
             System.out.println();
         }
         //second half
-        for (int i=n;i>=1;i--){ //the code will run from nto 1, and "i"(row) should be decrease;
+        for (int i=n;i>=1;i--){ //the code will run from n to 1, and "i"(row) should be decrease;
             for (int j=1;j<=i;j++){
                 System.out.print("*");
             }
